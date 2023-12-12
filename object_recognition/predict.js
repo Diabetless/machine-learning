@@ -17,7 +17,11 @@ const preProcess = async (image) => {
       const data = tf.node.decodeImage(buf);
       const resizedData = tf.image.resizeBilinear(data, [512, 512]);
       const normalizedData = tf.div(resizedData, 255.0);
-      return normalizedData.expandDims(0).transpose([0, 3, 1, 2]);
+      const selectionType =
+        normalizedData.shape[2] === 4
+          ? normalizedData.slice([0, 0, 0], [512, 512, 3])
+          : normalizedData;
+      return selectionType.expandDims(0).transpose([0, 3, 1, 2]);
     });
 
     return new Promise((resolve) => {

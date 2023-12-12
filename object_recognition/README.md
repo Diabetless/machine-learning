@@ -41,7 +41,7 @@ You can try the demo of Food Object detection model using Tensorflowjs-node as s
 
 ### Installation
 1. Fork to your github and Clone the repository
-``` 
+```shell
 git clone https://github.com/<your_github_username>/machine-learning.git
 ```
 2. Install the dependencies needed
@@ -50,8 +50,12 @@ npm install
 ```
 
 ### Usage
-1. Copy your image to [images](./images/) folder
-2. Run the code with added argument
+1. Change working directory to ```object_recognition```
+```shell
+cd object_recognition
+```
+2. Copy your image to [images](./images/) folder
+3. Run the code with added argument
 ```
 node predict.js [IMAGE_FILEPATH]
 ```
