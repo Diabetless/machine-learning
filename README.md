@@ -1,5 +1,5 @@
 # Machine Learning
-This is a repository for developing Machine Learning models for **Diabetless** applications.
+This is a repository for developing Machine Learning models for **Diabetless** application.
 
 ## Folder Structures
 - [Object Recognition/](./object_recognition/)

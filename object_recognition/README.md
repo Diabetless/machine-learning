@@ -34,9 +34,8 @@ Utils folder contain python scripts to preprocess the datasets.
 You can try the demo of Food Object detection model using Tensorflowjs-node as server side prediction process.
 
 ### Prerequisites
-- Python 3.9
-- Pip3
 - Nodejs
+- NPM
 - Tfjs-node
 
 ### Installation
