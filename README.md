@@ -4,7 +4,7 @@
   <img src='https://github.com/Diabetless/.github/blob/main/assets/Diabetless%20Logo.png' alt='Diabetless' width=250 />
 </p>
 
-Diabetless's Machine Learning team build a multiple object recognition model with transfer learning method using pretrained YOLOv8 architecture. The model goes through several phases of fine-tuning hyperparameters to get the best results. The final result is a trained model that has been converted to TensorFlowjs-node format, so it can perform server-side predictions with javascript.
+Diabetless's Machine Learning team build a multilabel object recognition model with transfer learning method using pretrained YOLOv8 architecture. The model goes through several phases of fine-tuning hyperparameters to get the best results. The final result is a trained model that has been converted to TensorFlowjs-node format, so it can perform server-side predictions with javascript.
 
 ## Folder Structures
 Before delving into the code, it's crucial to grasp the project's folder arrangement. Below is a broad summary of the directory layout.
